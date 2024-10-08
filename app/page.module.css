@@ -1,18 +1,39 @@
 .page {
-  background-color: rgb(194, 199, 197);
+  background-color: rgb(254, 255, 255);
 }
 
 .main {
   margin: 10px;
 }
 
-.mainHeader {
-  font-size: 50px;
-  padding: 30px;
-  text-align: center;
+.header nav {
+  background-color: rgb(206, 225, 242);
+  padding: 40px;
 }
 
+.header nav ul {
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.header nav ul li {
+  list-style-type: none;
+}
+
+.header nav ul li a {
+  color: black;
+  font-size: 24px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+
+
 .mainWrapper{
+  justify-content: center;
   display: flex;
   margin: 50px
 }
@@ -22,15 +43,16 @@
   border-radius: 20px;
   margin: 30px;
   padding: 20px;
-  width: 1500px
+  width: 1200px
 }
 
 .cardTop {
-  font-size: 80px;
+  font-size: 60px;
   font-style: italic;
-  margin: 20px;
-  margin-left: 40px;
-  width: 1500px;
+  margin: 0;
+  padding: 20px;
+  /* padding-left: 40px; */
+  width: 1200px;
 }
 
 .cardBottom {
@@ -38,14 +60,41 @@
 }
 
 .cardBottomLeft {
-  background-color: gray;
+  /* background-color: gray; */
   height: 400px;
   margin: 20px;
-  margin-left: 40px;
+  margin-left: 120px;
+  padding: 20px;
   width: 400px;
 }
 
 .cardBottomRight {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
   margin: 20px;
   width: 800px;
+}
+
+.mainDetails {
+  font-size: 24px;
+  margin: 20px;
+  padding-left: 160px;
+}
+
+.currTemp {
+  font-size: 100px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.minorDetails {
+  display: flex;
+  font-size: 24px;
+  margin: 20px;
+  padding-left: 160px;
+}
+
+.minorDetails div {
+  margin-right: 20px;
 }
