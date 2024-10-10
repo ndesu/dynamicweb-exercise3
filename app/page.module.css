@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 .page {
   background-color: rgb(254, 255, 255);
+  font-family: "Montserrat", sans-serif;
 }
 
 .main {
@@ -30,20 +33,17 @@
   text-decoration: none;
 }
 
-
-
-.mainWrapper{
+.mainWrapper {
   justify-content: center;
   display: flex;
-  margin: 50px
+  margin: 50px;
 }
 
 .weatherCardWrapper {
-  background-color: rgb(206, 225, 242);
   border-radius: 20px;
   margin: 30px;
   padding: 20px;
-  width: 1200px
+  width: 1200px;
 }
 
 .cardTop {
@@ -51,7 +51,6 @@
   font-style: italic;
   margin: 0;
   padding: 20px;
-  /* padding-left: 40px; */
   width: 1200px;
 }
 
@@ -60,10 +59,10 @@
 }
 
 .cardBottomLeft {
-  /* background-color: gray; */
   height: 400px;
   margin: 20px;
   margin-left: 120px;
+  opacity: 0.7;
   padding: 20px;
   width: 400px;
 }
@@ -73,7 +72,7 @@
   display: flex;
   flex-direction: column;
   margin: 20px;
-  width: 800px;
+  width: 900px;
 }
 
 .mainDetails {
